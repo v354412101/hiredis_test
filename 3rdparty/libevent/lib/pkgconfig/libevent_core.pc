@@ -1,0 +1,16 @@
+#libevent pkg-config source file
+
+prefix=/home/user1/libevent
+exec_prefix=/home/user1/libevent
+libdir=/home/user1/libevent/lib
+includedir=/home/user1/libevent/include
+
+Name: libevent_core
+Description: libevent_core
+Version: 2.1.11
+Requires:
+Conflicts:
+Libs: -L${libdir} -levent_core
+Libs.private: 
+Cflags: -I${includedir}
+
